@@ -1,0 +1,18 @@
+.logout{
+    height: 50px;
+    width: 70px;
+    color: black;
+    background-color: white;
+
+}
+.login{
+    height: 50px;
+    width: 70px;
+    color: white;
+    background-color: black;
+
+}
+button{
+    align-items: center;
+}
+
