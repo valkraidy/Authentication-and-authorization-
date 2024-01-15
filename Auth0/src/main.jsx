@@ -13,7 +13,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Auth0Provider
     domain={domain}
     clientId={clientId}
-    redirectUri={window.location.origin}
+    authorizationParams={{ redirect_uri: "http://localhost:5173/callback" }}
+
+
     
     
     >
